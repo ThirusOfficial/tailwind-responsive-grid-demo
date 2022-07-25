@@ -1,6 +1,6 @@
 # Responsive grid in Tailwind CSS
 
-This is a demo of responsive grid layout in Tailwind CSS using the plugin `@shrutibalasa/tailwind-grid-auto-fit` created by [Shruti Balasa](https://twitter.com/shrutibalasa)
+This is a demo of responsive grid layout in Tailwind CSS using the plugin [`@shrutibalasa/tailwind-grid-auto-fit`](https://github.com/ThirusOfficial/tailwind-grid-auto-fit) created by [Shruti Balasa](https://twitter.com/shrutibalasa)
 
 This demo uses Eleventy and Tailwind CSS.
 
