@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .grid1-item {
+      @apply text-center;
+   }
+   .grid1-item > span {
+      @apply mx-auto flex h-8 w-8 rounded-full text-sm font-semibold ring-2;
+   }
+   .grid1-item > span > span {
+      @apply m-auto;
+   }
+   .grid1-item h3 {
+      @apply mt-2 text-lg font-semibold;
+   }
+   .grid1-item p {
+      @apply mt-2 text-sm;
+   }
+   .grid2-item {
+      @apply rounded-md p-6 text-left;
+   }
+   .grid2-item h3 {
+      @apply font-bold;
+   }
+   .grid2-item p {
+      @apply mt-3 text-sm;
+   }
+   .grid2-item a {
+      @apply block w-32 ml-auto mt-3 px-4 py-2 text-sm font-semibold bg-white rounded-md text-center;
+   }
+}

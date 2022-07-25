@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-grid-auto-fit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./tailwind.css -o ./css/styles.css --watch",
+    "eleventy": "eleventy --serve",
+    "dev": "npm run tailwind & npm run eleventy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy",
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.12",
+    "tailwindcss": "^3.1.6"
+  }
+}
